@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subscibe Form</title>   
+</head>
+<script>
+    function validateForm() {
+      var x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("Please fill the required fields");  
+    }
+</script>
+<body>
+    <h2>Please enter details for subscription</h2>   
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+        <label for="mname">Middle name:</label><br>
+        <input type="text" id="mname" name="mname" placeholder="Middle Name"><br>         
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+
+        <label for="email">E-mail address:</label><br>
+        <input type="email" id="email" name="email" placeholder="abc@domain.com"><br>
+        
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        
+        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+        <label for="checkbox">Send me updates about new products and promotions.</label><br>
+        
+        <br><br>
+        <input type="submit"  value="Subscribe">   
+    </form> 
+ </body>
+</html>

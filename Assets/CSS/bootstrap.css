@@ -1,0 +1,113 @@
+body {
+    
+    color:black;
+}
+
+.backgound_image {
+    background-image:linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)),  url("/Bootstrap/Images/hero-bg.jpg") ;
+    color:white;
+    height: 500px;
+
+    
+}
+
+.cards{ 
+    display:inline-block ;
+    height: 230px;
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: medium;
+    margin: 50px;       
+}
+
+.cards:hover{
+    outline: thin red;
+    outline-style: double ;
+}
+
+.cards1{
+        width: 600px;
+        height: 200px;
+        display: inline-block;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        text-align: left;
+        padding: 20px;
+        
+}
+.cards1:hover{
+    outline: thin red;
+    outline-style: double ;
+}
+p.card_text{
+    font-size: large;
+}
+
+.first_text{
+    
+    text-align: center;
+
+}
+
+.card_text1{
+    text-align: right;
+    
+}
+
+
+.heading{
+    display:inline-block;
+    color:white;
+    
+
+}
+
+#image10{
+    float: left;
+
+    /* height:500px;
+    width: 600px; */
+    padding:30px;
+}
+#image10:hover{
+    outline: thin red;
+    outline-style: double ;
+}
+#image11{
+    float: left;
+    height:400px;
+    width: 500px;
+    padding:20px;
+
+}
+
+#image12{
+    float: right;
+    /* height:500px;
+    width: 600px; */
+    padding:10px;
+}
+
+.footer_navbar{
+    display:block;
+}
+
+.footer_details {
+    display: inline-block;
+    width: 24%;
+ }
+
+
+.top_nav_bar {
+   display: inline;   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.top_bar{
+    color: white;
+    float: right;
+    padding:20px;
+}
